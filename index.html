@@ -130,7 +130,7 @@
 <body>
     <div id="error-log"></div>
     <div id="intro-screen">
-        <img id="start-banner" src="start banner.jpg" alt="Christmas Banner">
+        <img id="start-banner" src="christmasbanner.jpg" alt="Christmas Banner">
         <div class="badge">🎄 GIÁNG SINH AN LÀNH 🎄</div>
         <button id="btnStart" onclick="startSystem()">BẮT ĐẦU</button>
     </div>
@@ -219,8 +219,7 @@
                 // Vandiep
                 const grd = ctx.createRadialGradient(cx, cy, 0, cx, cy, 50);
                 grd.addColorStop(0, '#FFFFFF'); 
-                grd.addColorStop(0.3, ''#FFC0CB'); 
-                grd.addColorStop(0.6, '#FF69B4');
+                grd.addColorStop(0.3, ''#FFC0CB');
                 grd.addColorStop(1, 'rgba(0,0,0,0)');
                 ctx.fillStyle = grd; ctx.fillRect(0,0,128,128);
 
